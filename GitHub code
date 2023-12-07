@@ -1,0 +1,15 @@
+# 3 var
+import math
+def f(x,y):
+    return x+y
+
+
+def x(z):
+    return pow(z,2) + pow(z,3)
+    
+    
+def y(z):
+    return z + (z * 2)
+
+
+print(f(x(2),y(3)))
